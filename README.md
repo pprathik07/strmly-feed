@@ -25,4 +25,37 @@ This project mimics platforms like YouTube Shorts or Instagram Reels with:
 ---
 
 ## 📁 Folder Structure
+src/
+├── assets/ # Static assets (icons/images)
+├── components/ # UI components (VideoCard, BottomNav)
+├── data/ # Mock data (video metadata)
+├── hooks/ # Custom hooks (e.g., useInView for auto play)
+├── App.jsx # Main app logic
+├── index.css # Tailwind + custom styles
+├── main.jsx # ReactDOM entry
+public/
+└── videos/ # Local MP4 demo files
 
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React (w/ hooks)
+- 💨 Tailwind CSS
+- 🎥 HTML5 `<video>`
+- 📦 Vite (for fast dev setup)
+- 📁 Lucide Icons
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/strmly-feed.git
+cd strmly-feed
+
+npm install
+npm run dev
+Then visit http://localhost:5173 🚀
