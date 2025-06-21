@@ -1,8 +1,6 @@
-// 📁 src/components/BottomNav.jsx
 import { Play, Video, Plus, Search } from "lucide-react";
 
 function BottomNav() {
-  // temp state for active tab
   const activeTab = 'home';
   
   console.log("rendering bottom nav");
