@@ -12,7 +12,6 @@ const mockVideos = [
       earnings: "₹2,100",
       isPaid: true,
       hashtag: "#StartupIndia",
-      category: "business", // extra field
     },
     {
       id: 2,
