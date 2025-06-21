@@ -1,12 +1,28 @@
-# React + Vite
+# 🎥 Strmly-Feed-Task (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A vertical, mobile-style short-video feed built using **React**, **TailwindCSS**, and HTML5 `<video>`.
 
-Currently, two official plugins are available:
+This project mimics platforms like YouTube Shorts or Instagram Reels with:
+- Auto-playing videos
+- Pause/mute on tap
+- Overlay UI (likes, shares, user info)
+- Smooth snap scroll behavior
+- Fully responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔁 **Auto-play/pause** based on scroll visibility
+- 🔇 **Tap to mute/unmute**
+- ⏯️ **Play/Pause control**
+- ❤️ Likes with toggle state
+- 💬 Comments, 🔄 Shares, ₹ Tips displayed
+- 📱 Mobile-friendly bottom nav
+- 🧑‍🎤 Profile + Follow button
+- 🔁 Snap-to-scroll fullscreen video feed
+
+---
+
+## 📁 Folder Structure
+
