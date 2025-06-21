@@ -26,12 +26,16 @@ This project mimics platforms like YouTube Shorts or Instagram Reels with:
 
 ## 📁 Folder Structure
 src/
-├── assets/ # Static assets (icons/images)
 ├── components/ # UI components (VideoCard, BottomNav)
+
 ├── data/ # Mock data (video metadata)
+
 ├── hooks/ # Custom hooks (e.g., useInView for auto play)
+
 ├── App.jsx # Main app logic
+
 ├── index.css # Tailwind + custom styles
+
 ├── main.jsx # ReactDOM entry
 public/
 └── videos/ # Local MP4 demo files
